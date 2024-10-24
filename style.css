@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar{
+    background: #0B529F;
+   
+}
+
+.logo img{
+    width: 50px;
+}
+
+.logo a{
+    color: #fff;
+}
+
+.nav-link  {
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: gray;
+}
+
+/* section 2 banner starts here */
+
+.banner{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background: #0B529F;
+}
+
+.text-img{
+    max-width: 1320px;
+    display: flex;
+}
+
+.text{
+    width: 50%;
+    height: 400px;
+    padding-top: 100px;
+    padding-left: 100px;
+   
+
+}
+.text button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background: #052e5a;
+    color: #fff;
+    transition: 1s ease-in-out;
+}
+
+.text button:hover{
+    background: #fff;
+    color: #0B529F;
+    font-weight: 700;
+}
+
+.image-1 {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.image-1 img {
+    width: 100%;
+    height: 430px;
+    object-fit: scale-down;
+    /* transform: translate(-170px, -12px); */
+}
+
+
+.text h3{
+    font-size: 14px;
+    text-align: justify;
+    color: #fff;
+    line-height: 21px;
+}
+
+/* section 3 starts here */
+.sec-3{
+    background: #D5EAF6;
+    width: 100%;
+    height: 200px;
+   
+}
+
+.col-3{
+    /* border: 1px solid #000; */
+    height: 200px;
+}
+
+.image-2 img{
+    width: 55px;
+    /* background: #0B529F;
+    color: #fff; */
+    box-shadow: 2px 2px 6px #a1a0a0;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.text-2 {
+    padding-left: 15px;
+}
+
+.text-2 h6{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.text-2 p{
+    font-size: 12px;
+    color: #000;
+}
+
+/* section 4 starts here */
+
+.sec-4{
+    width: 100%;
+    height: 600px;
+    padding-top: 100px;
+}
+.images{
+    position: relative;
+}
+
+.img-2 {
+    width: 300px;
+    height: 280px;
+    position: absolute;
+    top: 175px;
+    z-index: 100;
+    left: 100px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px #000, -4px -4px 8px #cecece;
+}
+
+.img-3 {
+    width: 300px;
+    height: 280px;
+    position: absolute;
+    left: 300px;
+    border-radius: 12px;   
+    box-shadow: 4px 4px 10px #000, -4px -4px 8px #cecece;
+}
+
+.sec-4 h2{
+    color: #000;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+/* section 5 starts here */
+.sec-5{
+    padding-top: 100px;
+}
+.card img{
+    width: 60px;
+}
+
+.loader {
+    height: 300px;
+    position: relative;
+    overflow: hidden; 
+    cursor: pointer;
+ }
+
+ .loader::before,
+ .loader::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    transition: width 0.3s ease, height 0.3s ease; /* Adjust the transition speed as needed */
+ }
+
+ .loader::before {
+    top: 0;
+    left: 0;
+    border-top: 4px solid #0B529F;
+ }
+
+ .loader::after {
+    bottom: 0;
+    right: 0;
+    border-bottom: 4px solid #0B529F;
+ }
+
+ .loader::after{
+     border-right: 4px solid #0B529F;
+ }
+ .loader::before{
+     border-left: 4px solid #0B529F;
+ }
+
+ .loader:hover::before,
+ .loader:hover::after {
+    width: 100%;
+    height: 100%;
+ }
+
+ .card img{
+    padding: 12px 8px;
+ }
+
+ .card h4{
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+ }
+
+ .card p{
+    color: #000;
+    font-size: 14px;
+ }
+
+ .card a{
+    font-size: 14px;
+    text-decoration: none;
+   
+ }
+
+ .card a i{
+    padding-left: 5px;
+ }
+
+ /* section 6 starts here */
+ .sec-6{
+    background: #0B529F;
+    margin-top: 100px;
+ }
+
+ .sec-6 .card{
+    background: #0B529F;
+ }
+
+ .content h2,span{
+    font-size: 18px;
+    color: #fff;
+ }
+
+/* section 7 starts here */
+
+.sec-7{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.sec-7 form input{
+    margin-bottom: 10px;
+}
+
+form button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background: #052e5a;
+    color: #fff;
+    transition: 1s ease-in-out;
+}
+
+/* footer starts here */
+footer{
+    background: #0B529F;
+}
+
+.footer-2{
+    background: #022d5a;
+}
+
+.footer-2 p{
+    font-size: 12px;
+}
+footer h3{
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 12px;
+}
+
+footer .f-text span{
+    font-size: 14px;
+    
+}
+.f-text i{
+    color: #fff;
+    padding-right: 6px;
+    padding-top: 4px;
+}
+.f-text p{
+    font-size: 14px;
+    color: #fff;
+}
+
+footer li{
+    list-style: none;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+footer li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-mb{
+    display: none;
+}
+
+/* mobile responsive starts here */
+
+@media only screen and (max-width:768px){
+    .form-img{
+        display: none;
+    }
+
+    form .form-control{
+        width: 80%;
+    }
+    .quick-link{
+        display: none;
+    }
+    footer h3{
+        font-size:14px ;
+    }
+    footer li{
+        font-size: 12px;
+    }
+    .f-text i, p{
+        font-size: 12px;
+    }
+    .sec-4 .images{
+        display: none;
+    }
+    .banner{
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+
+    .banner .text-img{
+        display: block;
+        width: 100%;
+    }
+    .banner .text{
+        width: 100%;
+        text-align: left;
+        padding: 50px 20px;
+    }
+    .image-1{
+        width: 100%;
+        height: 320px;
+    }
+
+    .image-2 img {
+        width: 55px;
+        box-shadow: 2px 2px 6px #a1a0a0;
+        border-radius: 5px;
+        padding: 4px;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 30px;
+}
+.sec-3 {
+   height: auto; 
+}
+.navbar{
+    display: none;
+}
+.navbar-mb{
+    width: 100%;
+    background: #022d5a;
+    display: flex;
+}
+.icon-mb i{
+    color: #fff;
+    cursor: pointer;
+}
+.icon-logo{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+#sidebar {
+    width: 300px;
+    background: #313131;
+    height: 100%;
+    top: 0;
+    left: -300px; 
+    position: absolute;
+    padding: 50px 10px;
+    transition: left 0.7s ease; 
+}
+
+#sidebar ul li {
+    list-style: none;
+    padding-bottom: 12px;
+}
+
+#sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#sidebar.visible {
+    left: 0;
+}
+
+}
